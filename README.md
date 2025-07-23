@@ -1,0 +1,84 @@
+# 🎓 Education System Website
+
+This is a simple static website for an education platform called **EduNation**. It includes a homepage with an about section, courses offered, and a contact form. Built using HTML and CSS.
+
+---
+
+## 🌐 index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Education System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>EduNation</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <h2>Welcome to EduNation</h2>
+    <p>Empowering the next generation through quality education</p>
+    <a href="#courses" class="btn">Explore Courses</a>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        EduNation is a modern education platform that provides online and offline learning for students of all ages.
+        We offer certified courses, expert mentors, and career guidance.
+      </p>
+    </div>
+  </section>
+
+  <section id="courses">
+    <div class="container">
+      <h2>Our Courses</h2>
+      <div class="course-list">
+        <div class="course-card">
+          <h3>Computer Science</h3>
+          <p>Learn programming, data structures, AI, and more.</p>
+        </div>
+        <div class="course-card">
+          <h3>Business Studies</h3>
+          <p>Master marketing, finance, and entrepreneurship.</p>
+        </div>
+        <div class="course-card">
+          <h3>Design</h3>
+          <p>UI/UX, graphic design, and creative tools training.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required/>
+        <input type="email" placeholder="Your Email" required/>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 EduNation. All rights reserved.</p>
+  </footer>
+</body>
+</html>
